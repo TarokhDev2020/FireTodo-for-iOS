@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>979171706052-tctr1173du3fq99higlgq40lreocbmhk.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.979171706052-tctr1173du3fq99higlgq40lreocbmhk</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBeGpVZ4vOah74cSkwlPM34FucrUX5TY1M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>979171706052</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>TAROKH.FireTodo02</string>
+	<key>PROJECT_ID</key>
+	<string>firetodo02</string>
+	<key>STORAGE_BUCKET</key>
+	<string>firetodo02.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:979171706052:ios:6bea02fa7c29c7a2973591</string>
+	<key>DATABASE_URL</key>
+	<string>https://firetodo02.firebaseio.com</string>
+</dict>
+</plist>

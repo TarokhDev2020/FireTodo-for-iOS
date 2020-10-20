@@ -1,0 +1,506 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E2D69647EA03D9398A86E3D8 /* Pods_FireTodo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A72B64D8C85C2A27417548BE /* Pods_FireTodo.framework */; };
+		FE322EE2252B7619004420BE /* TodoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE322EE1252B7619004420BE /* TodoCell.swift */; };
+		FE322EE4252B9EC0004420BE /* EditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE322EE3252B9EC0004420BE /* EditViewController.swift */; };
+		FE41A2F52529B2780092C515 /* TasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41A2F42529B2780092C515 /* TasksViewController.swift */; };
+		FE41A2F72529B2850092C515 /* CreateTasksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41A2F62529B2850092C515 /* CreateTasksViewController.swift */; };
+		FE41A2F92529B29B0092C515 /* SignOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE41A2F82529B29B0092C515 /* SignOutViewController.swift */; };
+		FE98DF942529CE4F00F1E15E /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98DF932529CE4F00F1E15E /* RoundButton.swift */; };
+		FE98DF962529F54800F1E15E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FE98DF952529F54800F1E15E /* GoogleService-Info.plist */; };
+		FE98DF98252A5AAF00F1E15E /* Todo.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE98DF97252A5AAF00F1E15E /* Todo.swift */; };
+		FE98DF9B252B745600F1E15E /* TodoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE98DF9A252B745600F1E15E /* TodoCell.xib */; };
+		FEFCED1B2529B167001D02C7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCED1A2529B167001D02C7 /* AppDelegate.swift */; };
+		FEFCED1D2529B167001D02C7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCED1C2529B167001D02C7 /* SceneDelegate.swift */; };
+		FEFCED1F2529B167001D02C7 /* AuthenticationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEFCED1E2529B167001D02C7 /* AuthenticationViewController.swift */; };
+		FEFCED222529B167001D02C7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFCED202529B167001D02C7 /* Main.storyboard */; };
+		FEFCED252529B167001D02C7 /* FireTodo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FEFCED232529B167001D02C7 /* FireTodo.xcdatamodeld */; };
+		FEFCED272529B167001D02C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEFCED262529B167001D02C7 /* Assets.xcassets */; };
+		FEFCED2A2529B167001D02C7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEFCED282529B167001D02C7 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22CDBB0466DAB53687B970A4 /* Pods-FireTodo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireTodo.debug.xcconfig"; path = "Target Support Files/Pods-FireTodo/Pods-FireTodo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C8C60FD7FB87B2015E6975C /* Pods-FireTodo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FireTodo.release.xcconfig"; path = "Target Support Files/Pods-FireTodo/Pods-FireTodo.release.xcconfig"; sourceTree = "<group>"; };
+		A72B64D8C85C2A27417548BE /* Pods_FireTodo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FireTodo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE322EE1252B7619004420BE /* TodoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoCell.swift; sourceTree = "<group>"; };
+		FE322EE3252B9EC0004420BE /* EditViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditViewController.swift; sourceTree = "<group>"; };
+		FE41A2F42529B2780092C515 /* TasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TasksViewController.swift; sourceTree = "<group>"; };
+		FE41A2F62529B2850092C515 /* CreateTasksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateTasksViewController.swift; sourceTree = "<group>"; };
+		FE41A2F82529B29B0092C515 /* SignOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutViewController.swift; sourceTree = "<group>"; };
+		FE98DF932529CE4F00F1E15E /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		FE98DF952529F54800F1E15E /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		FE98DF97252A5AAF00F1E15E /* Todo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todo.swift; sourceTree = "<group>"; };
+		FE98DF9A252B745600F1E15E /* TodoCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TodoCell.xib; sourceTree = "<group>"; };
+		FEFCED172529B167001D02C7 /* FireTodo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FireTodo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEFCED1A2529B167001D02C7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FEFCED1C2529B167001D02C7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		FEFCED1E2529B167001D02C7 /* AuthenticationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationViewController.swift; sourceTree = "<group>"; };
+		FEFCED212529B167001D02C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FEFCED242529B167001D02C7 /* FireTodo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FireTodo.xcdatamodel; sourceTree = "<group>"; };
+		FEFCED262529B167001D02C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEFCED292529B167001D02C7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FEFCED2B2529B167001D02C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEFCED142529B167001D02C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2D69647EA03D9398A86E3D8 /* Pods_FireTodo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B1C7467D9BAAE36DAB214E7B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22CDBB0466DAB53687B970A4 /* Pods-FireTodo.debug.xcconfig */,
+				5C8C60FD7FB87B2015E6975C /* Pods-FireTodo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BE4F7A597899B9E85844386A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A72B64D8C85C2A27417548BE /* Pods_FireTodo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FE98DF99252B744B00F1E15E /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FE98DF9A252B745600F1E15E /* TodoCell.xib */,
+				FE322EE1252B7619004420BE /* TodoCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		FEFCED0E2529B167001D02C7 = {
+			isa = PBXGroup;
+			children = (
+				FEFCED192529B167001D02C7 /* FireTodo */,
+				FEFCED182529B167001D02C7 /* Products */,
+				B1C7467D9BAAE36DAB214E7B /* Pods */,
+				BE4F7A597899B9E85844386A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FEFCED182529B167001D02C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCED172529B167001D02C7 /* FireTodo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEFCED192529B167001D02C7 /* FireTodo */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCED342529B17E001D02C7 /* Application */,
+				FEFCED332529B17B001D02C7 /* Models */,
+				FEFCED322529B176001D02C7 /* Views */,
+				FEFCED312529B170001D02C7 /* Controllers */,
+				FEFCED262529B167001D02C7 /* Assets.xcassets */,
+			);
+			path = FireTodo;
+			sourceTree = "<group>";
+		};
+		FEFCED312529B170001D02C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCED1E2529B167001D02C7 /* AuthenticationViewController.swift */,
+				FE41A2F42529B2780092C515 /* TasksViewController.swift */,
+				FE41A2F62529B2850092C515 /* CreateTasksViewController.swift */,
+				FE322EE3252B9EC0004420BE /* EditViewController.swift */,
+				FE41A2F82529B29B0092C515 /* SignOutViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		FEFCED322529B176001D02C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE98DF99252B744B00F1E15E /* Cells */,
+				FEFCED282529B167001D02C7 /* LaunchScreen.storyboard */,
+				FEFCED202529B167001D02C7 /* Main.storyboard */,
+				FE98DF932529CE4F00F1E15E /* RoundButton.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEFCED332529B17B001D02C7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE98DF97252A5AAF00F1E15E /* Todo.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FEFCED342529B17E001D02C7 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FEFCED1C2529B167001D02C7 /* SceneDelegate.swift */,
+				FEFCED1A2529B167001D02C7 /* AppDelegate.swift */,
+				FEFCED2B2529B167001D02C7 /* Info.plist */,
+				FEFCED232529B167001D02C7 /* FireTodo.xcdatamodeld */,
+				FE98DF952529F54800F1E15E /* GoogleService-Info.plist */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEFCED162529B167001D02C7 /* FireTodo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEFCED2E2529B167001D02C7 /* Build configuration list for PBXNativeTarget "FireTodo" */;
+			buildPhases = (
+				FED438AA81358230F6AC3D0C /* [CP] Check Pods Manifest.lock */,
+				FEFCED132529B167001D02C7 /* Sources */,
+				FEFCED142529B167001D02C7 /* Frameworks */,
+				FEFCED152529B167001D02C7 /* Resources */,
+				F5B332693CF5E2E90B94F944 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FireTodo;
+			productName = FireTodo;
+			productReference = FEFCED172529B167001D02C7 /* FireTodo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEFCED0F2529B167001D02C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Tarokh;
+				TargetAttributes = {
+					FEFCED162529B167001D02C7 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FEFCED122529B167001D02C7 /* Build configuration list for PBXProject "FireTodo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FEFCED0E2529B167001D02C7;
+			productRefGroup = FEFCED182529B167001D02C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEFCED162529B167001D02C7 /* FireTodo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEFCED152529B167001D02C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEFCED2A2529B167001D02C7 /* LaunchScreen.storyboard in Resources */,
+				FE98DF962529F54800F1E15E /* GoogleService-Info.plist in Resources */,
+				FEFCED272529B167001D02C7 /* Assets.xcassets in Resources */,
+				FE98DF9B252B745600F1E15E /* TodoCell.xib in Resources */,
+				FEFCED222529B167001D02C7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		F5B332693CF5E2E90B94F944 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireTodo/Pods-FireTodo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FireTodo/Pods-FireTodo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FireTodo/Pods-FireTodo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FED438AA81358230F6AC3D0C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FireTodo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEFCED132529B167001D02C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE98DF942529CE4F00F1E15E /* RoundButton.swift in Sources */,
+				FEFCED1F2529B167001D02C7 /* AuthenticationViewController.swift in Sources */,
+				FEFCED252529B167001D02C7 /* FireTodo.xcdatamodeld in Sources */,
+				FE322EE2252B7619004420BE /* TodoCell.swift in Sources */,
+				FE41A2F52529B2780092C515 /* TasksViewController.swift in Sources */,
+				FE98DF98252A5AAF00F1E15E /* Todo.swift in Sources */,
+				FE41A2F72529B2850092C515 /* CreateTasksViewController.swift in Sources */,
+				FEFCED1B2529B167001D02C7 /* AppDelegate.swift in Sources */,
+				FEFCED1D2529B167001D02C7 /* SceneDelegate.swift in Sources */,
+				FE322EE4252B9EC0004420BE /* EditViewController.swift in Sources */,
+				FE41A2F92529B29B0092C515 /* SignOutViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FEFCED202529B167001D02C7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFCED212529B167001D02C7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FEFCED282529B167001D02C7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEFCED292529B167001D02C7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEFCED2C2529B167001D02C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEFCED2D2529B167001D02C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FEFCED2F2529B167001D02C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22CDBB0466DAB53687B970A4 /* Pods-FireTodo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCBPPBQAT3;
+				INFOPLIST_FILE = "$(SRCROOT)/FireTodo/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TAROKH.FireTodo02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FEFCED302529B167001D02C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C8C60FD7FB87B2015E6975C /* Pods-FireTodo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = BCBPPBQAT3;
+				INFOPLIST_FILE = "$(SRCROOT)/FireTodo/Application/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = TAROKH.FireTodo02;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEFCED122529B167001D02C7 /* Build configuration list for PBXProject "FireTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFCED2C2529B167001D02C7 /* Debug */,
+				FEFCED2D2529B167001D02C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEFCED2E2529B167001D02C7 /* Build configuration list for PBXNativeTarget "FireTodo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEFCED2F2529B167001D02C7 /* Debug */,
+				FEFCED302529B167001D02C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FEFCED232529B167001D02C7 /* FireTodo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FEFCED242529B167001D02C7 /* FireTodo.xcdatamodel */,
+			);
+			currentVersion = FEFCED242529B167001D02C7 /* FireTodo.xcdatamodel */;
+			path = FireTodo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FEFCED0F2529B167001D02C7 /* Project object */;
+}
