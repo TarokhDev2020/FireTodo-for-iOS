@@ -1,6 +1,7 @@
 # FireTodo-for-iOS
 
-https://github.com/TarokhDev2020/FireTodo-for-iOS.git
+A simple and modern todo app using firebase
+
 ## Installation ##
 * Git and clone <br/>
 ```bash
